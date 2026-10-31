@@ -1,6 +1,6 @@
 // Accueil : le soleil couchant, pseudo + avatar, créer / rejoindre une table, jouer contre des bots, règles.
 import { motion } from 'framer-motion';
-import { BookOpen, Bot, House, LogIn, Minus, Plus } from 'lucide-react';
+import { BookOpen, Bot, House, MessageSquare, LogIn, Minus, Plus } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { AVATARS } from '../../../shared/protocol';
 import { SkyCard } from '../components/Card';
@@ -63,9 +63,14 @@ export function Home() {
 
   return (
     <Sky className="home" sun>
-      <a className="all-games" href="https://akhis-games.onrender.com">
-        <House size={16} aria-hidden /> Tous les jeux
-      </a>
+      <div className="home-links">
+        <a className="all-games" href="https://akhis-games.onrender.com">
+          <House size={16} aria-hidden /> Tous les jeux
+        </a>
+        <a className="all-games" href="https://akhis-games.onrender.com/feedback.html?jeu=skyjo">
+          <MessageSquare size={16} aria-hidden /> Feedback
+        </a>
+      </div>
       <header className="home-hero">
         <motion.div initial={{ y: -14, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ duration: 0.6 }}>
           <Logo size="lg" />
