@@ -2,6 +2,8 @@
 
 **Retourne, échange, et finis avec le moins de points.**
 
+👉 **Jouer : https://skyjo-zmtt.onrender.com** (la première ouverture peut prendre jusqu'à une minute, le temps que le serveur gratuit se réveille)
+
 Jeu de cartes multijoueur en ligne, à jouer entre amis depuis un navigateur, sur téléphone ou ordinateur, sans compte ni installation.
 D'après *Skyjo*, le jeu d'Alexander Bernhardt édité par Magilano (création de fans, non officielle, avec ses propres visuels).
 
