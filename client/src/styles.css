@@ -187,6 +187,8 @@ button {
   font-size: 2.6rem;
 }
 .logo-lg {
+  /* La hauteur de ligne serrée coupe les jambages du y et du j : on leur rend la place sous le logo. */
+  padding-bottom: 0.2em;
   font-size: clamp(4rem, 19vw, 7.2rem);
 }
 
