@@ -1,0 +1,11 @@
+{
+  "name": "Skyjo",
+  "short_name": "Skyjo",
+  "description": "Retourne, échange, aligne : celui qui finit avec le moins de points gagne.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#251a4d",
+  "theme_color": "#251a4d",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
