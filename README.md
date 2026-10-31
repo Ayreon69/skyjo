@@ -57,7 +57,7 @@ Entre bots, une manche coûte en moyenne 16 points à 2 joueurs et 25 à 8, et l
 
 ```bash
 npm install
-npm run dev:server   # serveur temps réel sur http://localhost:3160
+npm run dev:server   # serveur temps réel sur http://localhost:3170
 npm run dev:client   # interface sur http://localhost:5195
 npm test             # paquet, manches, colonnes, doublement, bots et table
 npm run build && npm run e2e   # parties complètes avec de vrais clients connectés

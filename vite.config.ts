@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// Le client vit dans /client ; en dev, Vite relaie le temps réel vers le serveur local (port 3160).
+// Le client vit dans /client ; en dev, Vite relaie le temps réel vers le serveur local (port 3170).
 export default defineConfig({
   root: 'client',
   plugins: [react()],
@@ -13,8 +13,8 @@ export default defineConfig({
   server: {
     port: 5195,
     proxy: {
-      '/socket.io': { target: 'http://localhost:3160', ws: true },
-      '/health': 'http://localhost:3160',
+      '/socket.io': { target: 'http://localhost:3170', ws: true },
+      '/health': 'http://localhost:3170',
     },
   },
 });

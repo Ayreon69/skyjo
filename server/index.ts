@@ -9,7 +9,7 @@ import { AVATARS, EMOTES, TAUNTS, type Ack } from '../shared/protocol';
 import { RoomManager } from './manager';
 import type { Room } from './room';
 
-const PORT = Number(process.env.PORT) || 3160;
+const PORT = Number(process.env.PORT) || 3170;
 const startedAt = Date.now();
 
 const app = express();
